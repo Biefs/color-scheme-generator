@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+*{ 
+    box-sizing: border-box;
+}
+
+
+.app {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scheme-form {
+    margin-top: 23px;
+    display: flex;
+    gap: 13px;
+}
+
+.color-schemes {
+    display: flex;
+}
+
+input[type=color] {
+    width: 61px;
+    height: 42px;
+    background: #E5E5E5;
+    border: 0.5px solid #D1D5DB;
+    cursor: pointer;
+}
+
+input[type=color]:hover {
+    background-color: #f5f7fa;
+}
+
+select[name=scheme-mod] {
+    color: #111827;
+    width: 262px;
+    padding: 9px 13px 9px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+select[name=scheme-mod]:hover{
+    background-color: #f5f7fa;
+}
+
+.btn-submit {
+    border: 1px solid #D1D5DB;
+    background: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #f5f7fa;
+}
+
+.color-scheme > div {
+    height: 414px;
+    width: 110px;
+}
+
+/* .color-scheme > div{
+    background-color: #F55A5A;
+} */
+
+
+
+p {
+    text-align: center;
+    cursor: pointer;
+}

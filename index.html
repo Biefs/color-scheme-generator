@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="app" id="app">
+            <form class="scheme-form">
+                <input id="color-picker" type="color">
+                <select id="scheme-mod" name="scheme-mod">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark" >Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                  </select>
+                  <button class="btn-submit">Get color scheme</button>
+            </form>
+            <div class="color-schemes">
+            </div>
+        </div>
+    </body>
+    <script type="module" src="app.js"></script>
+</html>
