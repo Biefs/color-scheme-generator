@@ -72,13 +72,7 @@ select[name=scheme-mod]:hover{
     width: 110px;
 }
 
-/* .color-scheme > div{
-    background-color: #F55A5A;
-} */
-
-
 
 p {
     text-align: center;
-    cursor: pointer;
 }
